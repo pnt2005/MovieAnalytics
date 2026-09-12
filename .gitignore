@@ -1,0 +1,63 @@
+# ===== Visual Studio / SSDT chung =====
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.csv
+
+# ===== SSIS specific =====
+# File cấu hình chứa thông tin nhạy cảm (connection string, password)
+*.dtsConfig
+*.dtsx.bak
+*.SourceSafe
+
+# Cache và log khi debug package
+*.dtsx.user
+Log/
+*.log
+
+# ===== SSAS specific =====
+# File cấu hình chứa thông tin server/connection
+*.asdatabase
+*.deploymenttargets
+*.deploymentoptions
+*.configsettings
+*.abf
+
+# Cache khi build/process cube
+*.detachattach
+obj/
+bin/
+
+# File output khi Deploy Analysis Services project
+*.asdb
+
+# ===== File nhạy cảm - KHÔNG BAO GIỜ commit =====
+# Connection manager chứa password (nếu để plain text)
+*.conmgr
+appsettings.json
+*.config
+
+# ===== Excel/Report kèm theo (nếu có) =====
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# ===== File hệ điều hành =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== antigravity file =====
+check_ssis.py
