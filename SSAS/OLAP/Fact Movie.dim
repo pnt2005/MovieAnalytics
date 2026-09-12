@@ -1,0 +1,224 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="93229de2-0733-4382-b8c5-a7c1c92a8ca9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Movie</ID>
+  <Name>Fact Movie</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cac4da46-e05e-4289-ad29-4438c8ba9af7">
+    <DataSourceViewID>MOVIE SSIS</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="90419d7b-43c9-4474-9ae3-22c848c20170">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="717cbb3c-0ec4-4e52-89c8-34f4a659bc57">
+      <ID>Fact Id</ID>
+      <Name>Fact Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7aa8c908-3932-4d03-94fe-2e0b0d7ff329">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4194b99a-3e19-4fe7-aa4d-43d3347d1278">
+            <TableID>dbo_Fact_Movie</TableID>
+            <ColumnID>Fact_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6410365e-2df7-430f-82ca-ea066d3d41f1">
+          <AttributeID>Country Id</AttributeID>
+          <Name>Country Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aa8f02e5-8a97-4f12-8b20-ef67288c77f3">
+          <AttributeID>Genre Id</AttributeID>
+          <Name>Genre Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7cb9edb2-6ad6-44d8-8467-f6fa63dbafc6">
+          <AttributeID>Movie Id</AttributeID>
+          <Name>Movie Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8b9340f-be7d-4d29-a725-5b850b6eb48b">
+          <AttributeID>Director Id</AttributeID>
+          <Name>Director Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f50cde14-d1bd-4a2c-a8c1-b7c0aae66b26">
+          <AttributeID>Release Date</AttributeID>
+          <Name>Release Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b1184ba4-f267-4dca-ae9d-1d7ad780cb52">
+          <AttributeID>Actor Id</AttributeID>
+          <Name>Actor Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b0b35de5-ac21-48b0-8814-5c4c28f38362">
+          <AttributeID>Language Id</AttributeID>
+          <Name>Language Id</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e0480baf-a4e5-4bac-bade-1bc0863cd598">
+      <ID>Country Id</ID>
+      <Name>Country Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aef038a2-e159-4c6f-b6fe-cb2eebd9593c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3964cefc-4096-4146-96b0-39dab068fc8b">
+            <TableID>dbo_Fact_Movie</TableID>
+            <ColumnID>country_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7392b9c6-5507-4851-9763-3adc534ec1c4">
+      <ID>Genre Id</ID>
+      <Name>Genre Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="36cadeb0-75ff-4cd7-bbc0-091287c2d24e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="27de1e1f-b1de-4eb6-a62d-e3d683694ddf">
+            <TableID>dbo_Fact_Movie</TableID>
+            <ColumnID>genre_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="81f27857-8f4c-4108-853e-d4056c2c403d">
+      <ID>Movie Id</ID>
+      <Name>Movie Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d547e064-4015-4abb-a415-27c317727c18">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2d278661-277c-4bee-a943-b46a64f23947">
+            <TableID>dbo_Fact_Movie</TableID>
+            <ColumnID>movie_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ba350543-d8de-4d7c-9b14-82c2231f7a70">
+      <ID>Director Id</ID>
+      <Name>Director Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="04a6a6b5-dacf-47d9-9a97-c8db5d6bc8d4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7bfa9cd1-e09a-4546-8402-5eb04193dbfd">
+            <TableID>dbo_Fact_Movie</TableID>
+            <ColumnID>director_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="01364c56-9af5-4c2e-aa9f-e55edfe51398">
+      <ID>Release Date</ID>
+      <Name>Release Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5f537d68-3f28-4491-8c80-3b7da2b0bea2">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef9750f2-4d55-4aa3-ba95-9f3175faa431">
+            <TableID>dbo_Fact_Movie</TableID>
+            <ColumnID>release_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b426cb69-7196-4186-a057-cae741d87bb1">
+      <ID>Actor Id</ID>
+      <Name>Actor Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="345326c1-dd89-460a-b266-852183a97684">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="166c423e-3816-41f0-833c-9b6df78f87e5">
+            <TableID>dbo_Fact_Movie</TableID>
+            <ColumnID>actor_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d405d1c1-3b63-411b-bd9c-952dc30f8986">
+      <ID>Language Id</ID>
+      <Name>Language Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="86ca651f-390d-42db-b223-3d0af14b21d9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd2cc465-e678-44a5-aa6a-d26382371815">
+            <TableID>dbo_Fact_Movie</TableID>
+            <ColumnID>language_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
