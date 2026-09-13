@@ -1,1 +1,1 @@
-![alt text](Power BI\image.png)
+![alt text](./PowerBI/image.png)
