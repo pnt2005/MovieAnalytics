@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8768a6ed-0e2a-495b-93a2-0636f9c172e9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dea40ff3-649f-483b-a0eb-eef375ef6ac1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>MOVIE SSIS</ID>
   <Name>MOVIE SSIS</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-2970" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="86" x="7179" y="14005" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-2970" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="86" x="18309" y="14005" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
             </font>
@@ -286,154 +286,154 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="7da54eb8-9bc1-4c82-8b4b-fe129b5d1766">
+    <Dimension dwd:design-time-name="39685723-fff9-4b2a-b0bf-976c7b47704d">
       <ID>Fact Movie</ID>
       <Name>Fact Movie</Name>
       <DimensionID>Fact Movie</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a37f7ba8-660a-43dc-9498-ef947ed9e12c">
+        <Attribute dwd:design-time-name="b1f4194e-04f4-4e96-a149-771d682f839a">
           <AttributeID>Fact Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3de892a8-838d-4069-83c3-7380f067d59a">
+        <Attribute dwd:design-time-name="9b0a1fe9-c41f-469a-8960-01d43f74b4d4">
           <AttributeID>Country Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5dce90b3-7c10-4e99-bffe-3e6db65c9b37">
+        <Attribute dwd:design-time-name="c0d04b72-1321-4a28-90b2-89edc514fb3d">
           <AttributeID>Genre Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f8d17165-ba23-4095-be39-7c64709b985a">
+        <Attribute dwd:design-time-name="157b7421-8f1e-4ee8-a09e-356b298593b2">
           <AttributeID>Movie Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cdf49f16-64cf-40f0-8e12-297feea1b93e">
+        <Attribute dwd:design-time-name="cc49d0d1-072b-47ef-aaff-e01838157d3c">
           <AttributeID>Director Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="54e3d0f8-468b-4784-9247-2d48214009b2">
+        <Attribute dwd:design-time-name="0f2467b0-0b22-4e56-8833-563e6e8e038d">
           <AttributeID>Release Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ba5a0e61-a13c-48b1-97ec-2c2b65163df2">
+        <Attribute dwd:design-time-name="fde374fb-7a22-484b-80d5-64d3c1f6d0ee">
           <AttributeID>Actor Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="52ee4c3c-5ebe-409a-9352-9fa5d14d4a60">
+        <Attribute dwd:design-time-name="5fe8649b-54fa-449b-8ccd-c7eebe4d2180">
           <AttributeID>Language Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="a8bcfaa2-528f-4bf7-a6b7-459f56875692">
+    <Dimension dwd:design-time-name="5026f30c-00c5-401e-898b-05cbb4e21c35">
       <ID>DIM Country</ID>
       <Name>DIM Country</Name>
       <DimensionID>DIM Country</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="0b02f318-6875-42ae-8864-25ec76e67925">
+        <Attribute dwd:design-time-name="4d0d3585-26c7-4ec6-b14e-d05230905151">
           <AttributeID>Country Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f39d6dec-cf9d-4646-892f-4263e2d09c25">
+        <Attribute dwd:design-time-name="4671e6ad-3fe0-4288-9f40-3b1d09b81a98">
           <AttributeID>Production Countries</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="295bf5c3-bd23-4d09-9082-35cc4ad97d2d">
+    <Dimension dwd:design-time-name="aae62874-a188-492f-9fc5-f72cc0fcfe10">
       <ID>DIM Genre</ID>
       <Name>DIM Genre</Name>
       <DimensionID>DIM Genre</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3bf2e9d4-fc9f-4919-8fb8-2793f951975c">
+        <Attribute dwd:design-time-name="b7d4e8c8-dce0-4946-be88-06f9e5f7dbfa">
           <AttributeID>Genre Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9a9029ad-ec5c-4b0d-83d2-27f0e85e4df8">
+        <Attribute dwd:design-time-name="db4f3244-9a7e-4563-a44e-3d9c8d898298">
           <AttributeID>Genres</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="cb896399-3911-4106-99fb-0bfead75caa5">
+    <Dimension dwd:design-time-name="424be3a8-1f62-42e4-ba8b-4a14855f77ef">
       <ID>DIM Movie</ID>
       <Name>DIM Movie</Name>
       <DimensionID>DIM Movie</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ba73cf58-45da-447a-9e06-cd9bbed5f4d3">
+        <Attribute dwd:design-time-name="aced1687-cba0-4564-bbda-acad6d4d7ccd">
           <AttributeID>Movie Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a5b178d0-4d04-4aad-ab76-075e0c5afea6">
+        <Attribute dwd:design-time-name="9945f48c-2cac-4c94-bcb9-1e0ef5c0f22f">
           <AttributeID>Title</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="745515af-c3f0-492c-8d5a-35204a5e019e">
+        <Attribute dwd:design-time-name="2e93cefb-3425-4896-8df3-e725fc6dd7a1">
           <AttributeID>Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4ece85b7-2a33-4a55-9843-40f88f107301">
+        <Attribute dwd:design-time-name="b9125356-0652-4282-a099-2c76f94488c9">
           <AttributeID>Imdb Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="94ee05b1-935a-4f34-91e7-aab7b6ff40d1">
+        <Attribute dwd:design-time-name="2b01110a-c9cc-4770-9dc5-95e88ae64425">
           <AttributeID>Overview</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="346d6d17-3e3c-4464-bca9-f9180c4ac5c2">
+    <Dimension dwd:design-time-name="2c988d9d-2925-4d8c-9f27-405241b9cdc7">
       <ID>DIM Director</ID>
       <Name>DIM Director</Name>
       <DimensionID>DIM Director</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7fd214d4-b5dc-4fcf-addc-94a0e36fb5e1">
+        <Attribute dwd:design-time-name="37cdaa23-ab57-49a8-9e61-3addddc2eab0">
           <AttributeID>Director Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d73f2356-9b07-4c55-b2d3-94bd9e0d3d3c">
+        <Attribute dwd:design-time-name="288ea32b-7989-4805-b00b-e48d4ccd6ce2">
           <AttributeID>Director</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="6d6ab2e5-949f-42c5-b883-2f7a49d2df24">
+    <Dimension dwd:design-time-name="0067ec4e-b254-433a-89cc-2732d718a4bc">
       <ID>DIM Actor</ID>
       <Name>DIM Actor</Name>
       <DimensionID>DIM Actor</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="4f86e759-0760-4c63-88f5-d433d14efbf9">
+        <Attribute dwd:design-time-name="170dfa62-d098-4f84-9d5d-97f70424ca81">
           <AttributeID>Actor Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="332f28a6-b81e-42f3-b5a4-b972e633ff1e">
+        <Attribute dwd:design-time-name="0c5d64c4-9485-4e86-8490-a57968fc4464">
           <AttributeID>Cast</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8a8050a6-836b-4969-af3d-397d57e3ab3c">
+    <Dimension dwd:design-time-name="86ff5081-e609-48ac-83ac-bdd429adb470">
       <ID>DIM Language</ID>
       <Name>DIM Language</Name>
       <DimensionID>DIM Language</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="eabeb814-01fd-40fe-a55d-fe3065ad4e02">
+        <Attribute dwd:design-time-name="03d7daa4-ae84-41d4-9d20-f99b7f63b3fd">
           <AttributeID>Language Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7f7fd2f2-5819-464f-980a-d6c31c134dc2">
+        <Attribute dwd:design-time-name="645a4fd2-4cee-4c5d-9989-856ec90124de">
           <AttributeID>Original Language</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1bf0edd7-e16d-415c-8e8b-d73143913d8e">
+        <Attribute dwd:design-time-name="82307d13-e252-4abc-89d6-5d38d5fb70f5">
           <AttributeID>Spoken Languages</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="076f91ce-05fc-4d0f-829c-6a9b7de18d7c">
+    <Dimension dwd:design-time-name="c39474ce-5e58-44a8-9667-e8eb8a1315ed">
       <ID>DIM Time</ID>
       <Name>DIM Time</Name>
       <DimensionID>DIM Time</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7c4e659c-36d5-4325-85a1-f98e62c97c24">
+        <Attribute dwd:design-time-name="eb735fab-3506-480b-9bf9-1b2f78ef1292">
           <AttributeID>Release Date Time</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f099cb6e-d935-47eb-b217-7726a60270e9">
+        <Attribute dwd:design-time-name="06782b2d-0767-4933-b69f-8a823e90dfdb">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4ddd4f45-d3dd-4bba-838b-623f7c4073a3">
+        <Attribute dwd:design-time-name="041ffbd2-9aec-4f1f-9bab-f51ee0c542b5">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6f833b34-5a0b-4177-a502-86fe5cc4f5a5">
+        <Attribute dwd:design-time-name="70105fb7-98eb-4491-a2e7-985d461a675e">
           <AttributeID>Year</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="a21c7c16-88f9-41ba-a319-4322d6f3e85b">
+        <Hierarchy dwd:design-time-name="a469d21c-6fcf-4da5-bfa1-083be82d7dc4">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="a63995b4-c04b-454c-8925-c1b11abcef14">
+    <MeasureGroup dwd:design-time-name="3f81c109-df49-4a1a-af59-3b8105a2fd96">
       <ID>Fact Movie</ID>
       <Name>Fact Movie</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -441,93 +441,93 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="03ef38de-999b-4495-ad68-6a01af18906f">
+        <Measure dwd:design-time-name="e026516b-3e88-470b-ad7d-9d8baa714d79">
           <ID>Fact Movie Count</ID>
           <Name>Fact Movie Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="9a894381-a00c-4aa2-91a2-f72d73945182">
+          <Source dwd:design-time-name="751f9536-0570-43ec-b5a8-75f79f454634">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="fc150b3a-1d83-49ab-a63a-f19570cc3a52">
+            <Source xsi:type="RowBinding" dwd:design-time-name="114d16cf-295c-4c26-8c1c-257a0e7e931c">
               <TableID>dbo_Fact_Movie</TableID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="05a6804c-10d1-4b4e-93bc-2dc4e599b90f">
+        <Measure dwd:design-time-name="86ad0439-157a-4c55-9705-20fec2b258cb">
           <ID>Vote Average</ID>
           <Name>Vote Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="a7245bf5-9ebb-42e1-b242-cfa074b5e254">
+          <Source dwd:design-time-name="8e305f88-42ca-4bfb-8b55-56ae07bc02b8">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="4485d256-b0a3-427c-8a99-e5c1429ba403">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="57e0d1c2-ea0c-4a18-8f6d-fdb7e0e71c7b">
               <TableID>dbo_Fact_Movie</TableID>
               <ColumnID>vote_average</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="3ef81e53-c4d3-4b8c-b510-b90232af36a3">
+        <Measure dwd:design-time-name="51573683-5349-4dd7-9793-99634e03413c">
           <ID>Vote Count</ID>
           <Name>Vote Count</Name>
-          <Source dwd:design-time-name="67cb0848-1e20-4025-99f4-538b78bf6e5e">
+          <Source dwd:design-time-name="72e0f8fd-f009-4bb7-bcd6-f71f8518856e">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="936a0e00-d01b-4266-8747-3c975c70b594">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ed4babf2-3d26-45c6-9f8a-6b829823f003">
               <TableID>dbo_Fact_Movie</TableID>
               <ColumnID>vote_count</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="01bc9f14-cb77-4392-9b03-87bab12d2405">
+        <Measure dwd:design-time-name="97474b4f-b598-48f2-93c2-e90f7e7e07ad">
           <ID>Revenue</ID>
           <Name>Sum Revenue</Name>
-          <Source dwd:design-time-name="1b4540cc-fe78-4402-8103-700a27b09a5f">
+          <Source dwd:design-time-name="4e937ab6-3ef8-4084-8718-b692dd1ae31e">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="68dea39e-7952-4b1e-bb2e-e1f2ea044d85">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1de12f80-70b7-4488-b1ad-2d92cfb0ec8e">
               <TableID>dbo_Fact_Movie</TableID>
               <ColumnID>revenue</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="06abf252-8349-4c55-9fea-7399356d9c7f">
+        <Measure dwd:design-time-name="550aae82-b1d6-4f4f-a771-2f7f9af0f2c3">
           <ID>Runtime</ID>
           <Name>Runtime</Name>
-          <Source dwd:design-time-name="692df632-7dbe-45b0-a419-ab4916d0973f">
+          <Source dwd:design-time-name="4b3bb4ca-fa8f-4c6b-af5b-fb743b43f1eb">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f111ee94-5701-400e-be34-a77ef0788223">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cd77d71d-6ab1-4b0c-9cf0-5536c41d532a">
               <TableID>dbo_Fact_Movie</TableID>
               <ColumnID>runtime</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="ea9d6048-2839-460e-bdd5-b72616df0583">
+        <Measure dwd:design-time-name="a590d0b1-96f5-4002-937f-14319b28564c">
           <ID>Budget</ID>
           <Name>Budget</Name>
-          <Source dwd:design-time-name="197d4616-2be0-4db9-8887-855af53d5c99">
+          <Source dwd:design-time-name="294e1dfc-d46d-4833-b6e3-5b9380c57941">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f1db46b7-351f-41c1-8cb3-3b3059ee85c5">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4fdcd969-1b3a-4f09-bcf3-1dbde2c0ece2">
               <TableID>dbo_Fact_Movie</TableID>
               <ColumnID>budget</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c7018d0e-dda5-4cbb-b4ab-ed12f3104dd4">
+        <Measure dwd:design-time-name="e7c97860-56c9-4975-86e8-35fe081cb336">
           <ID>Popularity</ID>
           <Name>Popularity</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="3a5e521b-0aa0-4e60-8a7c-f8a23c3637d4">
+          <Source dwd:design-time-name="7a9b97e2-d151-4cb2-895c-3ff3c962cea0">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="138612d0-c56f-4a36-8fd1-248add704446">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b9059318-802b-4157-8199-d9acea57f857">
               <TableID>dbo_Fact_Movie</TableID>
               <ColumnID>popularity</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="daf987b3-0cfa-4894-97b2-5878d90ad605">
+        <Measure dwd:design-time-name="9302b971-64fc-4f31-a679-282d2e7d0a7d">
           <ID>Revenue 1</ID>
           <Name>Average Revenue</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="bd523414-8302-4eda-85bc-13fdf18a4e5d">
+          <Source dwd:design-time-name="ec416755-c014-4131-a597-7f083c692708">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="b314e043-63fb-4f5a-833f-9e2d20b0a95c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="80938c18-d186-4f1d-aefd-fa3728b810f1">
               <TableID>dbo_Fact_Movie</TableID>
               <ColumnID>revenue</ColumnID>
             </Source>
@@ -537,16 +537,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="674360a0-3647-419a-8183-1e116cb9b9f9">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b529b822-13ae-4d65-83b3-ed46df0bd23a">
           <CubeDimensionID>Fact Movie</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dad916a2-3d0c-40cb-b801-2f086b36f552">
+            <Attribute dwd:design-time-name="77636bb2-9217-4a03-bf1b-9b4f758f7e1d">
               <AttributeID>Fact Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6c2a4433-4819-444b-a322-dcbf4f9f0f06">
+                <KeyColumn dwd:design-time-name="64816f61-3398-4e53-9555-23303ca09f31">
                   <DataType>WChar</DataType>
                   <DataSize>50</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f6474f6d-26fd-4007-9b03-f2b725c0a9e5">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cc1a6c3a-610c-41f5-ab2d-97b28ed5b02a">
                     <TableID>dbo_Fact_Movie</TableID>
                     <ColumnID>Fact_id</ColumnID>
                   </Source>
@@ -556,16 +556,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8f268840-3a67-44b3-9a49-e512889ad339">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8a14f780-b9a0-4ad6-9fc6-c2f7d4937d39">
           <CubeDimensionID>DIM Country</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ba8bcadf-6a61-4490-9f1f-e94e12a9f19e">
+            <Attribute dwd:design-time-name="2e1be2ec-36db-41cf-be4c-214095e46a8a">
               <AttributeID>Country Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="3433c005-afee-45ec-b57e-8140c36405cd">
+                <KeyColumn dwd:design-time-name="6e69823b-06ba-4b27-a0fd-0f3406390a49">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bf014a5b-5627-4457-a20e-2ff7bc51beab">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e95d460f-a574-4df3-bcce-603b41db885b">
                     <TableID>dbo_Fact_Movie</TableID>
                     <ColumnID>country_id</ColumnID>
                   </Source>
@@ -575,16 +575,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7dea84a8-ca61-4a1f-98cd-2bab2fcfcb0f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="03c2d8c9-50ae-47f9-a996-61c57dc18ed1">
           <CubeDimensionID>DIM Genre</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5f7019fa-7735-48c6-b830-83b58120cc90">
+            <Attribute dwd:design-time-name="f53c0c5a-9754-4d16-9902-950a6e19e43c">
               <AttributeID>Genre Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="61c3b148-3df4-4497-ab5e-5bdfc16af6ca">
+                <KeyColumn dwd:design-time-name="44ea5b19-1a90-426e-941d-370bfe8709db">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="691a09c6-0b47-4824-813a-80aecbcf32cd">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dbd8c300-ed7c-413b-a62b-3160908d4988">
                     <TableID>dbo_Fact_Movie</TableID>
                     <ColumnID>genre_id</ColumnID>
                   </Source>
@@ -594,16 +594,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d63fac35-acc8-4760-89e0-bec88e61d043">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="28bc0890-a1ba-47b4-95a3-3f875623938f">
           <CubeDimensionID>DIM Movie</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c84588fe-ca4b-482e-a858-277f0d4ac016">
+            <Attribute dwd:design-time-name="4d7ec52f-d34b-42bf-a912-f2eae17b75d2">
               <AttributeID>Movie Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9c3db7fb-754d-4bd8-98d8-5a08a21b0b09">
+                <KeyColumn dwd:design-time-name="08601612-2d4f-42a8-ac62-550f6b90e205">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="75827fd7-8ddf-485c-b898-c7c6daf7b8c4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="70898e75-06d2-4925-bbac-7bd3a2fe1f23">
                     <TableID>dbo_Fact_Movie</TableID>
                     <ColumnID>movie_id</ColumnID>
                   </Source>
@@ -613,16 +613,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4871344f-edf8-4182-b7dc-23fc51108bbf">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5ea91913-8207-4757-86df-5b8dc6a98940">
           <CubeDimensionID>DIM Director</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2092a214-6afc-42f0-8f1d-ba7f7e2be7ca">
+            <Attribute dwd:design-time-name="3f587e0e-2899-4a86-903c-e2e3b5d5b40b">
               <AttributeID>Director Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="cf4f2624-a660-4d4a-aec2-999003eb150d">
+                <KeyColumn dwd:design-time-name="b13c604e-91b3-44ae-bd1e-f41f68ed6f35">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fac0a78b-3e6b-4f2f-af9d-2a21f4794c9a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="060a8f9c-c11e-48a0-866e-4bb78a29f92f">
                     <TableID>dbo_Fact_Movie</TableID>
                     <ColumnID>director_id</ColumnID>
                   </Source>
@@ -632,16 +632,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0655121f-2e6a-4e9a-be7d-c3aa27f9b038">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3a145616-6cc5-44fe-afe4-323d0d0fdb8a">
           <CubeDimensionID>DIM Time</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="7f8fa990-aed0-44f7-8189-f3d92e9d1c5f">
+            <Attribute dwd:design-time-name="ab9bde1a-7a83-4632-9e65-80faed9c5bfb">
               <AttributeID>Release Date Time</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="2168fed9-3364-4a4e-934a-f563347a1fe5">
+                <KeyColumn dwd:design-time-name="625b5157-eb7d-4aa0-a495-e58094a8d754">
                   <DataType>Date</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6fc45202-6253-4c51-8bfc-387871f0b2f9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="47c07f3b-d361-4435-8fdf-106c7b502760">
                     <TableID>dbo_Fact_Movie</TableID>
                     <ColumnID>release_date</ColumnID>
                   </Source>
@@ -651,16 +651,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0d2cbd10-e9af-4e99-b322-76ed57369a7d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cfcd4f93-4b47-4c74-a5f0-5160097bc8ba">
           <CubeDimensionID>DIM Actor</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="457394dd-486f-4371-8f5d-5782e172af39">
+            <Attribute dwd:design-time-name="cdf825d9-e2d8-4af3-9c3e-8162c5202e84">
               <AttributeID>Actor Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7eb0dbd7-fae8-4373-824a-0430595e2b7b">
+                <KeyColumn dwd:design-time-name="42f6b2bc-ea60-4b1a-83e4-1b78fb121be2">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee38cf65-da14-4a26-9e07-033fe8ec245e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d5b54651-e406-43b6-a51d-2e09fa2ed644">
                     <TableID>dbo_Fact_Movie</TableID>
                     <ColumnID>actor_id</ColumnID>
                   </Source>
@@ -670,16 +670,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cea1b7b4-5875-432c-98cf-c3c380953246">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7a18f630-faf1-4d7d-b3ae-b85b9e8d0185">
           <CubeDimensionID>DIM Language</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="fd1294c4-13d9-47cf-aeeb-ccb299ebfb8c">
+            <Attribute dwd:design-time-name="3fae70d6-aca4-4127-82f7-113543c8751d">
               <AttributeID>Language Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="11ab7c89-3511-4d5a-8789-5121ef3cc5db">
+                <KeyColumn dwd:design-time-name="9b0f2322-c795-4fb6-a9de-437efa5a25ab">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="be6d116a-227b-4147-a615-bab4e58194cc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9a523281-6869-4e1f-af80-febd5dff147c">
                     <TableID>dbo_Fact_Movie</TableID>
                     <ColumnID>language_id</ColumnID>
                   </Source>
@@ -690,14 +690,13 @@
           </Attributes>
         </Dimension>
       </Dimensions>
-      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="32c3ce19-1d1f-42f1-9cb8-8cec4072a75f">
+  <Source dwd:design-time-name="da028003-4df3-4525-bcdd-117778a6528c">
     <DataSourceViewID>MOVIE SSIS</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="b159bc49-5158-4945-94f8-738a843336e2">
+    <MdxScript dwd:design-time-name="cce9bc6d-35d1-42d9-afd8-b16a9eea7156">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -709,13 +708,15 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;   
+CALCULATE;    
 CREATE DYNAMIC SET CURRENTCUBE.[Cau1]
- AS TOPCOUNT([DIM Movie].[title].[title].MEMBERS,10,[Measures].[Sum Revenue]);  
+ AS TOPCOUNT([DIM Movie].[title].[title].MEMBERS,10,[Measures].[Sum Revenue]);   
 CREATE DYNAMIC SET CURRENTCUBE.[Cau2]
- AS TOPCOUNT ([DIM Director].[Director].[Director].MEMBERS, 20, [Measures].[Vote Average]); 
+ AS TOPCOUNT ([DIM Director].[Director].[Director].MEMBERS, 20, [Measures].[Vote Average]);  
 CREATE DYNAMIC SET CURRENTCUBE.[Cau3]
- AS TOPCOUNT([DIM Genre].[Genres].[Genres].MEMBERS, 10, [Measures].[Sum Revenue]) ; </Text>
+ AS TOPCOUNT([DIM Genre].[Genres].[Genres].MEMBERS, 10, [Measures].[Sum Revenue]); 
+CREATE DYNAMIC SET CURRENTCUBE.[Cau4]
+ AS TOPCOUNT([DIM Movie].[Title].[Title].MEMBERS,10,[Measures].[Vote Count]) ; </Text>
         </Command>
       </Commands>
     </MdxScript>
